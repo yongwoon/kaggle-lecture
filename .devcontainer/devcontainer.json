@@ -1,0 +1,33 @@
+{
+  "name": "kaggle-lecture",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "app",
+  "workspaceFolder": "/app",
+  "settings": {
+    "terminal.integrated.shell.linux": null
+  },
+  "extensions": [
+    "ms-python.python",
+    "tushortz.python-extended-snippets",
+    "donjayamanne.python-extension-pack",
+    "ms-python.vscode-pylance",
+    "littlefoxteam.vscode-python-test-adapter",
+    "njpwerner.autodocstring",
+    "kevinrose.vsc-python-indent",
+    "mgesbert.python-path",
+    "formulahendry.terminal",
+    "batisteo.vscode-django",
+    "atisteo.vscode-django",
+    "bibhasdn.django-snippets",
+    "bibhasdn.django-html",
+    "editorconfig.editorconfig",
+    "donjayamanne.githistory",
+    "eamodio.gitlens"
+  ]
+
+  // "forwardPorts": [],
+  // "runServices": [],
+  // "shutdownAction": "none",
+  // "postCreateCommand": "apt-get update && apt-get install -y curl",
+  // "remoteUser": "vscode"
+}
